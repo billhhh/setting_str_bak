@@ -141,7 +141,7 @@
     "gholdkey": "none",
     "stenable": false,
     "stroke": true,
-    "strokecolor": "4E1485",
+    "strokecolor": "00BFFF",
     "strokeopa": 0.8,
     "strokewidth": 5,
     "tooltip": true,
