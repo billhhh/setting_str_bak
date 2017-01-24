@@ -90,8 +90,14 @@
         "moreTsearch": "sgoogle"
       },
       {
-        "action": "T_copytext",
-        "direct": "D"
+        "direct": "D",
+        "action": "T_searchuser",
+        "moreName": "Google-Translate",
+        "moreURL": "https://translate.google.com/#auto/zh-cn/%s",
+        "moreDes": "Use %name to search \"%s\"",
+        "moreTarget": "newfront",
+        "morePosition": "chrome",
+        "morePinned": "unpinned"
       }
     ]
   },
