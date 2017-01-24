@@ -34,10 +34,6 @@
         "morePinned": "unpinned",
         "morePosition": "chrome",
         "moreTarget": "newfront"
-      },
-      {
-        "action": "I_save",
-        "direct": "D"
       }
     ],
     "imgfirst": "none",
@@ -58,14 +54,6 @@
         "morePinned": "unpinned",
         "morePosition": "chrome",
         "moreTarget": "newfront"
-      },
-      {
-        "action": "L_copytext",
-        "direct": "D"
-      },
-      {
-        "action": "L_copyurl",
-        "direct": "U"
       }
     ],
     "setdragurl": true,
@@ -118,67 +106,35 @@
         "direct": "R"
       },
       {
-        "action": "G_up",
-        "direct": "U"
+        "direct": "U",
+        "action": "G_top"
       },
       {
-        "action": "G_down",
-        "direct": "D"
+        "direct": "D",
+        "action": "G_bottom"
       },
       {
-        "action": "G_close",
         "direct": "DR",
-        "moreCloseopts": "close",
+        "action": "G_close",
+        "moreCloseurl": "chrome://newtab/",
         "moreClosesel": "chrome",
-        "moreCloseurl": "chrome://newtab/"
+        "moreCloseopts": "close"
       },
       {
+        "direct": "RL",
         "action": "G_reclosedtab",
-        "direct": "LU",
         "moreDes": "Reopen closed tab",
-        "morePinned": "unpinned",
+        "moreTarget": "newfront",
         "morePosition": "chrome",
-        "moreTarget": "newfront"
+        "morePinned": "unpinned"
       },
       {
-        "action": "G_bottom",
-        "direct": "RD"
+        "direct": "UL",
+        "action": "G_lefttab"
       },
       {
-        "action": "G_top",
-        "direct": "RU"
-      },
-      {
-        "action": "G_reload",
-        "direct": "UD"
-      },
-      {
-        "action": "G_reloadclear",
-        "direct": "UDU"
-      },
-      {
-        "action": "G_lefttab",
-        "direct": "UL"
-      },
-      {
-        "action": "G_righttab",
-        "direct": "UR"
-      },
-      {
-        "action": "G_newwindow",
-        "direct": "DRU"
-      },
-      {
-        "action": "G_closewindow",
-        "direct": "URD"
-      },
-      {
-        "action": "G_crxsettings",
-        "direct": "RDLU",
-        "moreDes": "CrxMouse settings",
-        "morePinned": "unpinned",
-        "morePosition": "chrome",
-        "moreTarget": "newfront"
+        "direct": "UR",
+        "action": "G_righttab"
       }
     ],
     "gestureui": true,
